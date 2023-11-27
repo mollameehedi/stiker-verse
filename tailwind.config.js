@@ -1,6 +1,7 @@
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
+  content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
       lineHeight: {
@@ -10,10 +11,14 @@ module.exports = {
         primary: "#ffdb00",
         link: "#2b78c5",
         secondary: "#444",
+        'black-4040': "#040404",
         btnBg: "#2d2d2d",
         navFo: "rgb(4, 4, 4)",
         copyRight: "rgb(17, 17, 17)",
       },
+      backgroundImage: {
+        'heroBanner': "url('./../images/home_bg_banner.png')",
+      }
     },
     fontFamily: {
       futurapt: ["Futura PT", "sans-serif"],
@@ -28,6 +33,7 @@ module.exports = {
       "3xl": "1.953rem",
       "4xl": "2.441rem",
       "5xl": "3.052rem",
+      "h1": "4rem",
     },
   },
   spacing: {

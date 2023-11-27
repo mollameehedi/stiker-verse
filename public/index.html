@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Tailwind Project</title>
-    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
-    <header class="bg-black">
+    <header class="absolute top-0 left-0  w-full">
       <div class="container md:w-11/12">
         <!-- ==== Navbar Start ===== -->
         <nav>
@@ -20,7 +21,7 @@
             <li><a href="" class="leading-nav">Reorder</a></li>
             <li>
               <a href="" class="leading-nav"
-                ><img src="src/images/logo.gif" alt=""
+                ><img class="max-h-[100%]" src="assets/images/logo.gif" alt=""
               /></a>
             </li>
             <li><a href="" class="leading-nav">Sticker Shop</a></li>
@@ -41,6 +42,20 @@
         <!-- ==== Navbar End ===== -->
       </div>
     </header>
+    <!--  banner section start here -->
+    <section class="bg-heroBanner pt-36">
+      <div class="pb-12 w-3/4 mx-auto text-center text-white">
+        <h1 class="text-h1 font-medium ">Print custom stickers and labels</h1>
+        <p class="font-light">Make your own custom stickers, and labels.
+          Express delivery as fast as 2-4 days. Get an instant proof and free shipping!</p>
+          <p class="font-light px-5 text-[12px]">FREE SHIPPING TO USA & CANADA</p>
+          <ul class="flex justify-center mt-8 gap-x-6">
+            <li><a href="" class="cBtn bg-primary text-black-4040 py-4 px-8 rounded-3xl hover:bg-primary hover:opacity-70">Custom Stickers Product</a></li>
+            <li><a href="" class="cBtn bg-white text-black-4040 py-4 px-8 rounded-3xl hover:bg-white hover:opacity-70">All Stickers Products</a></li>
+          </ul>
+      </div>
+    </section>
+    <!--  banner section end here  -->
     <div class="p-4">
       <br /><br />
       <button>Hello</button>

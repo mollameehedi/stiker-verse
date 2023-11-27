@@ -18,15 +18,16 @@
     @apply font-futurapt;
   }
   h3 {
-    @apply text-secondary capitalize;
+    @apply text-secondary capitalize font-medium text-4xl;
   }
-  button {
-    @apply h-9 w-56 bg-btnBg text-primary py-2 px-6 font-futurapt font-bold text-bntText  uppercase rounded hover:bg-black;
-  }
+
 }
 @layer components {
   .container {
     @apply my-0 mx-auto w-full;
+  }
+  .cBtn {
+    @apply h-9 w-56 bg-btnBg text-primary py-2 px-6 font-futurapt font-bold text-bntText  uppercase rounded hover:bg-black;
   }
   .cardHeading {
     @apply text-xl text-btnBg font-futurapt;
