@@ -1,6 +1,6 @@
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
 
-@import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url("https://fonts.cdnfonts.com/css/futura-pt");
 
 /*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com */
 
@@ -604,10 +604,8 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
-body{
+body {
   font-family: Helvetica Neue, sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgba(68, 68, 68, var(--tw-text-opacity));
 }
@@ -616,12 +614,36 @@ h1, h2, h3, h4, h5, h6{
   font-family: Futura PT, sans-serif;
 }
 
-h3{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+h3 {
   text-transform: capitalize;
   --tw-text-opacity: 1;
   color: rgba(68, 68, 68, var(--tw-text-opacity));
+}
+
+button {
+  height: 2.25rem;
+  width: 14rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(45, 45, 45, var(--tw-bg-opacity));
+}
+
+button:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
+button{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Futura PT, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgba(255, 219, 0, var(--tw-text-opacity));
 }
 
 .container{
@@ -664,6 +686,24 @@ h3{
   margin-top: 0px;
   margin-bottom: 0px;
   width: 100%;
+}
+
+.cardHeading {
+  font-family: Futura PT, sans-serif;
+  font-size: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(45, 45, 45, var(--tw-text-opacity));
+}
+
+.iconDiv {
+  display: flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 219, 0, var(--tw-bg-opacity));
 }
 
 .sr-only{
@@ -22922,69 +22962,36 @@ h3{
   font-family: Helvetica Neue, sans-serif;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-bntText{
+  font-size: 14px;
 }
 
 .text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.8rem;
 }
 
 .text-base{
   font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-xl{
   font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.563rem;
 }
 
 .text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.953rem;
 }
 
 .text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 2.441rem;
 }
 
 .text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-9xl{
-  font-size: 8rem;
-  line-height: 1;
+  font-size: 3.052rem;
 }
 
 .font-thin{
@@ -55566,69 +55573,36 @@ h3{
     font-family: Helvetica Neue, sans-serif;
   }
 
-  .sm\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
+  .sm\:text-bntText{
+    font-size: 14px;
   }
 
   .sm\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: 0.8rem;
   }
 
   .sm\:text-base{
     font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .sm\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .sm\:text-xl{
     font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .sm\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.563rem;
   }
 
   .sm\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 1.953rem;
   }
 
   .sm\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 2.441rem;
   }
 
   .sm\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .sm\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .sm\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .sm\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .sm\:text-9xl{
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 3.052rem;
   }
 
   .sm\:font-thin{
@@ -87834,69 +87808,36 @@ h3{
     font-family: Helvetica Neue, sans-serif;
   }
 
-  .md\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
+  .md\:text-bntText{
+    font-size: 14px;
   }
 
   .md\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: 0.8rem;
   }
 
   .md\:text-base{
     font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-xl{
     font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.563rem;
   }
 
   .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 1.953rem;
   }
 
   .md\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 2.441rem;
   }
 
   .md\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .md\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .md\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .md\:text-9xl{
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 3.052rem;
   }
 
   .md\:font-thin{
@@ -120102,69 +120043,36 @@ h3{
     font-family: Helvetica Neue, sans-serif;
   }
 
-  .lg\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
+  .lg\:text-bntText{
+    font-size: 14px;
   }
 
   .lg\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: 0.8rem;
   }
 
   .lg\:text-base{
     font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .lg\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-xl{
     font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.563rem;
   }
 
   .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 1.953rem;
   }
 
   .lg\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 2.441rem;
   }
 
   .lg\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .lg\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .lg\:text-9xl{
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 3.052rem;
   }
 
   .lg\:font-thin{
@@ -152370,69 +152278,36 @@ h3{
     font-family: Helvetica Neue, sans-serif;
   }
 
-  .xl\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
+  .xl\:text-bntText{
+    font-size: 14px;
   }
 
   .xl\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: 0.8rem;
   }
 
   .xl\:text-base{
     font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .xl\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .xl\:text-xl{
     font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.563rem;
   }
 
   .xl\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 1.953rem;
   }
 
   .xl\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 2.441rem;
   }
 
   .xl\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .xl\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .xl\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .xl\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .xl\:text-9xl{
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 3.052rem;
   }
 
   .xl\:font-thin{
@@ -184638,69 +184513,36 @@ h3{
     font-family: Helvetica Neue, sans-serif;
   }
 
-  .\32xl\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
+  .\32xl\:text-bntText{
+    font-size: 14px;
   }
 
   .\32xl\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: 0.8rem;
   }
 
   .\32xl\:text-base{
     font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .\32xl\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .\32xl\:text-xl{
     font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .\32xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.563rem;
   }
 
   .\32xl\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 1.953rem;
   }
 
   .\32xl\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 2.441rem;
   }
 
   .\32xl\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-9xl{
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 3.052rem;
   }
 
   .\32xl\:font-thin{
