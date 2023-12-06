@@ -7,7 +7,7 @@
 
 @layer base {
   body {
-    @apply font-helvetica  text-secondary;
+    @apply font-helvetica  text-secondary font-normal;
   }
   h1,
   h2,
@@ -17,14 +17,29 @@
   h6 {
     @apply font-futurapt;
   }
+  h2 {
+    @apply text-secondary capitalize font-medium text-2title;
+  }
   h3 {
-    @apply text-secondary capitalize font-medium text-4xl;
+    @apply text-white capitalize font-medium text-2xl;
+  }
+  h4{
+    @apply text-xl font-black text-secondary capitalize;
+  }
+  h5{
+    @apply text-primary text-base font-bold uppercase;
+  }
+  h6{
+    @apply text-third 
+  }
+  p{
+    @apply font-normal text-base;
   }
 
 }
 @layer components {
   .container {
-    @apply my-0 mx-auto w-full;
+    @apply my-0 mx-auto  w-8/12;
   }
   .cBtn {
     @apply h-9 w-56 bg-btnBg text-primary py-2 px-6 font-futurapt font-bold text-bntText  uppercase rounded hover:bg-black;
@@ -34,5 +49,11 @@
   }
   .iconDiv {
     @apply w-9 h-9 bg-primary rounded-full flex justify-center items-center;
+  }
+  .section-title{
+    @apply text-center;
+  }
+  .card{
+    @apply bg-white shadow-xl;
   }
 }
