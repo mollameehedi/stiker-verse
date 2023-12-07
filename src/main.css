@@ -56,4 +56,11 @@
   .card{
     @apply bg-white shadow-xl;
   }
+  .paginate{
+    @apply rounded-none w-auto bg-black text-primary;
+  }
+  
+  .active{
+    @apply text-black bg-primary;
+  }
 }
