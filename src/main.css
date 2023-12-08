@@ -7,7 +7,7 @@
 
 @layer base {
   body {
-    @apply font-helvetica  text-secondary font-normal;
+    @apply font-helvetica bg-graywhite  text-secondary font-normal;
   }
   h1,
   h2,
@@ -39,7 +39,7 @@
 }
 @layer components {
   .container {
-    @apply my-0 mx-auto  w-8/12;
+    @apply my-0 mx-auto  w-10/12;
   }
   .cBtn {
     @apply h-9 w-56 bg-btnBg text-primary py-2 px-6 font-futurapt font-bold text-bntText  uppercase rounded hover:bg-black;
@@ -49,6 +49,9 @@
   }
   .iconDiv {
     @apply w-9 h-9 bg-primary rounded-full flex justify-center items-center;
+  }
+  .soci-icon {
+    @apply w-12 leading-12 text-center bg-primary rounded-full inline-block text-black-4040;
   }
   .section-title{
     @apply text-center;

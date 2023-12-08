@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       lineHeight: {
         nav: "100px",
+        '12': "48px",
       },
       colors: {
         primary: "#ffdb00",
